@@ -12,13 +12,13 @@
   };
 
   home.packages = with pkgs; [
-    mise
     writefreely
     sqlite
   ];
 
   imports = [
     (import ./programs/bash.nix)
+    (import ./programs/mise.nix)
     (import ./programs/vim.nix pkgs)
   ];
 }
