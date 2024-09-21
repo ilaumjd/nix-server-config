@@ -19,6 +19,7 @@
   imports = [
     (import ./programs/bash.nix)
     (import ./programs/bat.nix)
+    (import ./programs/eza.nix)
     (import ./programs/mise.nix)
     (import ./programs/vim.nix pkgs)
   ];
