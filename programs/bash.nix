@@ -4,7 +4,11 @@
     enableCompletion = true;
     initExtra = builtins.readFile ./bashrc;
     shellAliases = {
+      # coreutils
       cat = "bat";
+      rm = "trash";
+
+      # nix
       hms = "home-manager switch --flake .";
 
       # git

@@ -12,8 +12,14 @@
   };
 
   home.packages = with pkgs; [
-    writefreely
-    sqlite
+    fd
+    ripgrep
+    tealdeer
+    trash-cli
+    wget
+
+    # formatter
+    nixfmt-rfc-style
   ];
 
   imports = [
