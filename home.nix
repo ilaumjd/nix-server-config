@@ -22,6 +22,7 @@
     (import ./programs/eza.nix)
     (import ./programs/fzf.nix)
     (import ./programs/mise.nix)
+    (import ./programs/scmpuff.nix)
     (import ./programs/vim.nix pkgs)
   ];
 }
