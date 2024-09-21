@@ -1,5 +1,5 @@
 " Set colorscheme
-colorscheme nord
+colorscheme sorbet
 
 " Basic settings
 set background=dark

@@ -5,7 +5,6 @@ pkgs: {
     plugins = with pkgs.vimPlugins; [
       auto-pairs
       ctrlp-vim
-      nord-vim
       vim-airline
       vim-commentary
       vim-gitgutter
