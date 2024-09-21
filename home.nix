@@ -18,7 +18,7 @@
   ];
 
   imports = [
-    (import ./bash.nix)
-    (import ./vim.nix pkgs)
+    (import ./programs/bash.nix)
+    (import ./programs/vim.nix pkgs)
   ];
 }
