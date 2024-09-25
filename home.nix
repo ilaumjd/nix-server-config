@@ -30,5 +30,6 @@
     (import ./programs/mise.nix)
     (import ./programs/scmpuff.nix)
     (import ./programs/vim.nix pkgs)
+    (import ./programs/zoxide.nix)
   ];
 }

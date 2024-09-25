@@ -6,6 +6,7 @@
     shellAliases = {
       # coreutils
       cat = "bat";
+      cd = "z";
       rm = "trash";
 
       # nix
