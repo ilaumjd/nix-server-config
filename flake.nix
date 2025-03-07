@@ -14,7 +14,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      homeConfigurations."ilaumjd" = home-manager.lib.homeManagerConfiguration {
+      homeConfigurations."iam" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
         modules = [ ./home.nix ];
