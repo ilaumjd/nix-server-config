@@ -8,6 +8,7 @@
       cat = "bat";
       cd = "z";
       rm = "trash";
+      lg = "lazygit";
 
       # nix
       hms = "home-manager switch --flake .";

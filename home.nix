@@ -27,8 +27,10 @@
     (import ./programs/bat.nix)
     (import ./programs/eza.nix)
     (import ./programs/fzf.nix)
+    (import ./programs/lazygit.nix)
     (import ./programs/mise.nix)
     (import ./programs/scmpuff.nix)
+    (import ./programs/tmux.nix pkgs)
     (import ./programs/vim.nix pkgs)
     (import ./programs/zoxide.nix)
   ];
